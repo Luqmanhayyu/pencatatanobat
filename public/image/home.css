@@ -1,0 +1,25 @@
+img {
+    margin-top: 10%;
+}
+
+.welcome-tittle {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+/* .d-flex justify-content-center {
+    padding: 20px;
+} */
